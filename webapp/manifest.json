@@ -87,6 +87,15 @@
         "dataSource": "/V2/Northwind/Northwind.svc/"
       }
     },
+    "services": {
+      "ShellUIService": {
+        "factoryName": "sap.ushell.ui5service.ShellUIService",
+        "lazy": false,
+        "settings": {
+          "setTitle": "auto"
+        }
+      }
+    },
     "resources": {
       "css": [
         {
