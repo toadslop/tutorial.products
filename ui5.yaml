@@ -23,4 +23,6 @@ server:
         debug: true
         port: 1091
         xsappJson: approuter/xs-app.json
-        destinations: []
+        destinations:
+        - name: "Northwind"
+          url: "https://services.odata.org/"
